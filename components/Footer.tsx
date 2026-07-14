@@ -8,9 +8,15 @@ export function Footer() {
         <p>© 2026 Paula.dev. Todos os direitos reservados.</p>
 
         <div className="flex gap-4">
-          <a href="https://github.com/" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-          <a href="mailto:contato@email.com">Email</a>
+          <a href="https://github.com/" target="_blank" className="transition hover:text-lime-400">
+            GitHub
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" className="transition hover:text-lime-400">
+            LinkedIn
+          </a>
+          <a href="mailto:contato@email.com" className="transition hover:text-lime-400">
+            Email
+          </a>
         </div>
       </footer>
   );

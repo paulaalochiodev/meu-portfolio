@@ -2,7 +2,7 @@ export function ProfileCards() {
   return (
     <section className="mx-auto max-w-[1800px] px-6 py-10">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6">
+            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-purple-500">
               <h2 className="text-xl font-bold">resumo profissional</h2>
 
               <ul className="mt-4 space-y-3 text-sm text-zinc-300">
@@ -13,7 +13,7 @@ export function ProfileCards() {
               </ul>
             </div>
 
-            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6">
+            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-purple-500">
               <h2 className="text-xl font-bold">informações-chave</h2>
 
               <div className="mt-4 space-y-3 text-sm text-zinc-300">
@@ -25,7 +25,7 @@ export function ProfileCards() {
               </div>
             </div>
 
-            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6">
+            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-purple-500">
               <h2 className="text-xl font-bold">formação & certificações</h2>
 
               <div className="mt-4 space-y-4 text-sm text-zinc-300">
@@ -43,7 +43,7 @@ export function ProfileCards() {
               </div>
             </div>
 
-            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6">
+            <div className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-purple-500">
               <h2 className="text-xl font-bold">idiomas & soft skills</h2>
 
               <div className="mt-4 space-y-3 text-sm text-zinc-300">
