@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="mx-auto flex max-w-[1800px] flex-col gap-4 px-6 py-8 text-sm text-zinc-400 md:flex-row md:items-center md:justify-between">
+    <footer className="mx-auto flex max-w-[1750px] flex-col gap-4 px-6 py-8 text-sm text-zinc-400 md:flex-row md:items-center md:justify-between">
         <strong className="text-xl font-bold text-lime-400">
           {"<Paula.dev/>"}
         </strong>

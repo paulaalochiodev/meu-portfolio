@@ -1,10 +1,10 @@
 export function Experience() {
   return (
-    <section id="experiencia" className="mx-auto max-w-[1800px] px-6 py-10">
-          <h2 className="text-3xl font-bold">experiência</h2>
+    <section id="experiencia" className="mx-auto max-w-[1750px] px-6 py-14">
+          <h2 className="text-3xl font-black tracking-tight">experiência</h2>
 
           <div className="mt-6 grid gap-6 md:grid-cols-3">
-            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-lime-400">
+            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 shadow-lg shadow-black/20 transition hover:-translate-y-1 hover:border-lime-400">
               <span className="text-sm font-bold text-lime-400">
                 produto & gestão
               </span>
@@ -17,7 +17,7 @@ export function Experience() {
               </p>
             </article>
 
-            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-lime-400">
+            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 shadow-lg shadow-black/20 transition hover:-translate-y-1 hover:border-lime-400">
               <span className="text-sm font-bold text-lime-400">
                 transição técnica
               </span>
@@ -30,7 +30,7 @@ export function Experience() {
               </p>
             </article>
 
-            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 transition hover:-translate-y-1 hover:border-lime-400">
+            <article className="rounded-lg border border-zinc-800 bg-zinc-950 p-6 shadow-lg shadow-black/20 transition hover:-translate-y-1 hover:border-lime-400">
               <span className="text-sm font-bold text-lime-400">
                 projetos práticos
               </span>

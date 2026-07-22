@@ -20,7 +20,11 @@
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top left, rgba(88, 28, 135, 0.45), transparent 32%),
+    radial-gradient(circle at 85% 20%, rgba(132, 204, 22, 0.18), transparent 28%),
+    #000;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }

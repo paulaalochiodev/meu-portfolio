@@ -1,6 +1,6 @@
 export function Contacts() {
   return (
-        <section id="contato" className="mx-auto max-w-[1800px] px-6 py-10">
+        <section id="contato" className="mx-auto max-w-[1750px] px-6 py-14">
           <div className="flex flex-col gap-6 rounded-lg border border-zinc-800 bg-gradient-to-r from-purple-950 to-zinc-950 p-8 md:flex-row md:items-center md:justify-between">
             
             <div>
